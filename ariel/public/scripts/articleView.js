@@ -138,7 +138,7 @@ var app = app || {};
   articleView.initAdminPage = () => {
     // DONE: Call the Handlebars .compile() method, which will return a function for you to use where needed.
     // Make sure you assign the result of your Handlebars.compile call to a variable called "template", since we are then calling "template" below.
-    let template = Handlebars.compile($('#article-template').html());
+    let template = Handlebars.compile($('#admin-template').html());
 
     // REVIEW: We use .forEach() here because we are relying on the side-effects of the callback function: appending to the DOM.
     // The callback is not required to return anything.
